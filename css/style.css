@@ -1,0 +1,324 @@
+/*fonts*/
+@font-face {
+  font-family: "PoppinsBold ", sans-serif;
+  src: url("fonts/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: "PoppinsMedium ", sans-serif;
+  src: url("fonts/Poppins-Medium.ttf");
+}
+@font-face {
+  font-family: "PoppinsRegular ", sans-serif;
+  src: url("fonts/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "RobotoBold", sans-serif;
+  src: url("fonts/Roboto-Bold.ttf");
+}
+@font-face {
+  font-family: "RobotoMedium ", sans-serif;
+  src: url("fonts/Roboto-Medium.ttf");
+}
+@font-face {
+  font-family: "RobotoRegular ", sans-serif;
+  src: url("fonts/Roboto-Regular.ttf");
+}
+
+/*common css start*/
+body {
+  font-family: "PoppinsRegular ", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+}
+/*common css end*/
+/*Header start*/
+header {
+  background-color: #f0fff0;
+  padding: 15px 0 0;
+}
+.n_btn {
+}
+.logo {
+}
+.menu ul li a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000 !important;
+  padding: 0 20px !important;
+}
+.menu ul li a:hover {
+  color: #fd511a !important;
+}
+.btn_nav {
+  width: 105px;
+  height: 38px;
+}
+.btn_c {
+  font-family: "PoppinsRegular ", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #ffffff;
+  background-color: #21b573;
+  border-radius: 16px;
+}
+.btn_c:hover {
+  background-color: black;
+  color: white;
+}
+
+/*Header end*/
+
+/*banner start*/
+.banner {
+  background-color: #f0fff0;
+  padding: 30px 0 120px;
+}
+.b_text {
+  padding: 0 244px 0 0;
+}
+.b_light {
+  line-height: 24px;
+  color: #fd511a;
+}
+.b_h1 {
+  margin: 10px 0 20px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 65px;
+  color: #000000;
+}
+.b_h1 span {
+  color: #21b573;
+}
+.b_p {
+  line-height: 36px;
+}
+.btn_banner {
+  margin-top: 15px;
+  display: flex;
+  width: 155px;
+  height: 45px;
+  align-items: center;
+  justify-content: center;
+}
+.b_img {
+}
+.b_img img {
+}
+
+/*banner end*/
+/* ------------------------------- slick start ------------------------------ */
+.homeslider {
+  margin: 70px 0;
+  /* background-color: #21B573; */
+  /* box-shadow: #; */
+
+  /* box-shadow: 10px 10px 5px 0px rgba(33,181,115,0.67); */
+}
+.slide {
+  /* aspect-ratio: 3/2; */
+  /* object-fit: contain; */
+  padding: 0 10px;
+  box-shadow: 4px -66px 86px -28px rgba(102, 247, 182, 1);
+
+  /* mix-blend-mode: color-burn; */
+}
+.slick-prev:before,
+.slick-next:before {
+  font-family: "slick";
+  font-size: 30px;
+  line-height: 1;
+  opacity: 0.85;
+  color: #21b573;
+}
+.slick-prev {
+  left: -40px;
+}
+.slick-dots li button:before {
+  color: #21b573;
+  font-size: 10px;
+  cursor: move;
+}
+.slick-dots li.slick-active button:before {
+  color: blue;
+}
+
+/* ------------------------------- slick end ------------------------------ */
+/* --------------------------------- button --------------------------------- */
+.button {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 45px;
+  box-shadow: Opx 8px 15px rgba(O, O, O, 0.1);
+  transition: all 0.3s ease Os;
+  cursor: pointer;
+  outline: none;
+}
+.bAll:hover {
+  background-color: #21b573;
+  box-shadow: 0px 15px 20px rgba(13, 240, 252, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+.b1:hover {
+  background-color: #0af6fa;
+  box-shadow: 0px 15px 20px rgba(13, 240, 252, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+.b2:hover {
+  background-color: #13fa0a;
+  box-shadow: 0px 15px 20px rgb(13 252 46 / 40%);
+  color: #fff;
+}
+.b3:hover {
+  background-color: #ff24b6;
+  box-shadow: 0px 15px 20px rgb(252 13 141 / 40%);
+  color: #fff;
+  transform: translateY(-7px);
+}
+.sortingbtn:hover {
+  background-color: black;
+  box-shadow: 0px 15px 20px rgba(65, 34, 50, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+button:active {
+  transform: translateY(-2 px);
+}
+
+/* ------------------------------ MixItUp start ----------------------------- */
+.Mix_img {
+  aspect-ratio: 3/2;
+  object-fit: contain;
+}
+/* ------------------------------ MixItUp end ----------------------------- */
+
+/* ----------------------------- lightbox start ----------------------------- */
+.l_text {
+  color: #21b573;
+}
+/* ----------------------------- lightbox end ----------------------------- */
+
+/* ------------------------------ swiper start ------------------------------ */
+
+.swiper {
+  width: 80%;
+  height: 50%;
+  margin-left: 220px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+.swiperp {
+  margin-left: 100px;
+}
+
+ /* mouse wheel effect */
+ /* .swiper {
+	width: 100%;
+	height: 100%;
+  }
+  
+  .swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .swiper-slide img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  } */
+ /* manupulation effect */
+ .append-buttons {
+	text-align: center;
+	margin-top: 20px;
+  }
+
+  .append-buttons button {
+	display: inline-block;
+	cursor: pointer;
+	border: 1px solid #007aff;
+	color: #007aff;
+	text-decoration: none;
+	padding: 4px 10px;
+	border-radius: 4px;
+	margin: 0 10px;
+	font-size: 13px;
+  }
+
+  /* gallry */
+  .swiperGL {
+	width: 100%;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+  }
+  .mySwiper2 {
+	height: 80%;
+	width: 100%;
+  }
+  .mySwiperGL {
+	height: 20%;
+	box-sizing: border-box;
+	padding: 10px 0;
+  }
+  
+  .mySwiperGL .swiper-slide {
+	width: 25%;
+	height: 100%;
+	opacity: 0.4;
+  }
+  .mySwiperGL .swiper-slide-thumb-active {
+	opacity: 1;
+  }
+  
+  .swiper-slideGL img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
+/* ------------------------------ swiper end ------------------------------ */
+
+/* ------------------------------- owlCarousel ------------------------------ */
+/* mouse wheel */
+.owlCarousel{
+  background-color:#d3d3d3  ;
+}
+/* table */
+.ResponseTable{
+  border: 5px solid #21b573;
+}
+/* hi slide */
+.ml_250px{
+  margin-left: 250px;
+
+}
+/* paralox */
+.parallax-window {
+	min-height: 400px;
+	background: transparent;
+}
